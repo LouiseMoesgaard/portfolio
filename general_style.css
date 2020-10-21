@@ -1,0 +1,55 @@
+/*** general Style ***/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hide {
+    display: none;
+}
+
+section {
+    padding: 25px 40px;
+}
+/*** text ***/
+
+h1 {
+    
+}
+
+h2 {
+    font-family: 'optima', sans-serif;
+    font-size: 2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'optima', sans-serif;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+p,
+span,
+li,
+input,
+textarea {
+    font-family: 'optima', sans-serif;
+    line-height: 2rem;
+    font-weight: lighter;
+    font-size: 1rem;
+
+}
+

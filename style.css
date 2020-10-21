@@ -1,0 +1,132 @@
+/*** Navigation ***/ 
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.menu_wrapper {
+    padding: 25px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.logo {
+    width: 45%;
+}
+
+img{
+    width: 100%;
+}
+
+.burger_open {
+    width: 3rem;
+    justify-self: end;
+    padding-top: 10px;
+    position: relative;
+}
+
+.burger_open div {
+    height: 3px;
+    width: 2rem;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in-out;
+}
+.burger_open div:nth-child(2) {
+    width: 3rem;
+}
+
+.burger_open div:last-child {
+    margin-bottom: 0;
+}
+
+.open_menu{
+    width: 3rem;
+    justify-self: end;
+    padding-top: 10px;
+    position: relative;
+    z-index: 5;
+}
+
+.open_menu .line1 {
+    top: 25px;
+    transform: rotate(45deg);
+    position: absolute;
+    width: 3rem;
+}
+
+.open_menu .line2 {
+    display: none;
+}
+
+.open_menu .line3 {
+    transform: rotate(-45deg);
+    position: absolute;
+    width: 3rem;
+    top: 25px;
+}
+
+.menu {
+    margin: 0;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    width: 30vw;
+    top: 0;
+    background-color: #25313F; 
+}
+
+.menu .rotate{
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+    width: 1000px;
+    top: 7rem;
+    right: -15vw;
+    position: relative;
+}
+
+.menu a {
+    color: #ffffff;
+    font-family: 'optima', sans-serif;
+    font-size: 1rem;
+    margin-right: 50px;
+}
+
+a,
+a:active,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+/*** Frontpage ***/ 
+
+
+#frontpage {
+    margin-top: 0;
+    height: 100vh;
+    padding: 0;
+    background: linear-gradient(#25313F 0%, #EDE9E8 100%);
+}
+
+/*** Welcome ***/ 
+
+#welcome {
+    background-color: #25313F;
+}
+
+#welcome h2, 
+#welcome h3, 
+#welcome p{
+    color: #FFFFFF;
+}
+
+
+/*** work ***/ 
+/*** internship ***/ 
+/*** about me ***/ 
+/*** contact ***/ 
