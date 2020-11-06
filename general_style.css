@@ -315,6 +315,7 @@ img{
 
 .circle{
     position: absolute;
+    opacity: 0.5;
 }
 
 #circle1{

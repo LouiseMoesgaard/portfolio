@@ -3,7 +3,7 @@
 /*** general Style ***/
 
 .section_wrapper{
-    padding: 50px 120px;  
+    padding: 13% 120px;  
 }
 
 /*** Navigation ***/ 
@@ -158,14 +158,14 @@ img{
 #frontpage p{
     position: relative;
     margin: 0;
-    width: 50%;
+    width: 35%;
     top: 53%;
 }
 
 #frontpage hr {
     position: relative;
-    top: 48%;
-    width: 50%;
+    top: 50%;
+    width: 35%;
     margin: 0;
     border-bottom: 2px solid black;
 }
@@ -308,8 +308,8 @@ img{
 /** circles **/
 
 #circle1{
-    top: 10vh;
-    left: -20vw;
+    top: 15vh;
+    left: -32vw;
     width: 800px;
 }
 
@@ -328,7 +328,7 @@ img{
 }
 
 #circle5{
-    top: 395vh;
+    top: 380vh;
     left: -20vw;
     width: 800px;
 }
