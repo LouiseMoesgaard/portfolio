@@ -1,0 +1,113 @@
+[
+
+    {
+        "title":"Magnifying glass!",
+        "subTitle":"A little school project",
+        "about":"This project wasn´t made for a client. It´s a code assignment I had to do in the beginning of 3rd semester. The reason I show this project is that the work is concerning SVG manipulation. I learned a lot about SVG and JavaScript during this project.",
+        "mainImg": "img/magnifying.png",
+        "imgClass": "vertical",
+        "time":"October 2020",
+        "role":"Coding, GitHub and manipulating with svg´s",
+        "solution":{"text": "Magnifying glass", "link": "http://moesgaard-designs.dk/kea/12_Advanced_Animation/12C.02.02_Add_mobile_functionality_to_the_magnifying_glass/"},
+        "imgs":[]
+    },
+
+    {
+        "title":"An invitation.",
+        "subTitle":"...For a big birthday!",
+        "about":"This invitation is one of my latest projects. The task was more difficult than usual as I was doing this for a woman, I did not know at all before. The process was fun, and a good result came out of it.",
+        "mainImg": "img/70.png",
+        "imgClass": "vertical",
+        "time":" August 2019",
+        "role":"Photoshop and design",
+        "imgs":[]
+    },
+
+    {
+        "title":"Snifs store energijagt",
+        "subTitle":"Spar energi med Snif",
+        "about":"Snif is a game for children age 3-4. It was developed for the client Viegand Maagøe and it´s about a fox sniffing its way through energy misuse in houses. The client gave us a lot of material to work with and my group decided to work with Viegand Maagøe´s already existing visual style of the energy hunting fox.",
+        "mainImg": "img/snif.png",
+        "time":"October 2020",
+        "role":"Coding, GitHub, sounds and music and manipulating with svg´s",
+        "solution": {"text": "Snifs store energijagt", "link": "http://moesgaard-designs.dk/kea/12_Advanced_Animation/Snif/"},
+        "imgs":[{"src":"img/work_img/snif/snif1.png", "class":"work_grid-item--width2"},{"src":"img/work_img/snif/snif2.png", "class":"work_grid-item--width2"},{"src":"img/work_img/snif/snif3.png", "class":"work_grid-item--width2"}, {"src":"img/work_img/snif/snif4.png", "class":"work_grid-item--width2"}]
+    },
+
+    {
+        "title":"Dawda Jobarteh webpage",
+        "subTitle":"A new visual style for a musician",
+        "about":"In the 2nd semester we, in groups of four, made a website for an artist. There were many different tasks in such a project. I was therefore our code manager and had the overall responsibility for this part of the project. The project is made with a front end, where content from WordPress was dynamically loaded.",
+        "mainImg": "img/dawda.png",
+        "time":"may 2020",
+        "role":"Coding, GitHub, CMS (wordpress)",
+        "solution":{"text": "Dawda Jobarteh", "link": "https://moesgaard-designs.dk/kea/10-eksamen/frontend_eksamen_modul10/"},
+        "imgs":[{"src":"img/work_img/dawda/dawda1.png", "class":"work_grid-item--width2"},{"src":"img/work_img/dawda/dawda2.png", "class":"work_grid-item--width2"}, {"src":"img/work_img/dawda/dawda3.png"}, {"src":"img/work_img/dawda/dawda4.png"}, {"src":"img/work_img/dawda/dawda5.png", "class":"work_grid-item--width2"}]
+    },
+
+    {
+        "title":"A little card of appreciation.",
+        "subTitle":"Who doesn´t like that?",
+        "about":"This card of appreciation was made as a part of a big birthday event. It was designed in photoshop with content from the web with an open license. The last couple of years, I have made invitations and designs for a bunch of different events. I started this hobby with my own wedding realizing the importance of unique designs for big events. ",
+        "mainImg": "img/mom.png",
+        "imgClass": "vertical",
+        "time":"August 2019",
+        "role":"Photoshop, designing, time management and paper crafting",
+        "imgs":[]
+    },
+
+    {
+        "title":"Wedding invitation",
+        "subTitle":"Who doesn´t like a nice homemade wedding?",
+        "about":"This wedding invitation is actually from my own wedding in 2017. It was designed in photoshop and otherwise made by hand. The last couple of years, I have made invitations and designs for a bunch of different events. I started this hobby with my own wedding realizing the importance of unique designs for big events. ",
+        "mainImg": "img/wedding.png",
+        "imgClass": "vertical",
+        "time":"January 2017",
+        "role":"Photoshop, designing, time management and paper crafting",
+        "imgs":[{"src":"img/work_img/wedding/wed1.png", "class":"work_grid-item--width2"}, {"src":"img/work_img/wedding/wed2.png", "class":"work_grid-item--width2"}]
+    },
+
+    {
+        "title":"Hogwarts",
+        "subTitle":"An assignment on 3rd semester",
+        "about":"The Hogwarts assignment was a website I created to practice JavaScript. The design was a quick solution for desktops only and there were no major thoughts behind this. The website taught me about json manipulation and user input.",
+        "mainImg": "img/hogwarts.png",
+        "time":"September 2020",
+        "role":"Coding, GitHub and design",
+        "solution":{"text": "Hacked Hogwarts", "link": "http://moesgaard-designs.dk/kea/11_Coding_visual_design/11C.04.04_Hacked_Hogwarts_Student_list/"},
+        "imgs":[]
+    },
+
+    {
+        "title":"21-5",
+        "subTitle":"When there is alot of data",
+        "about":"In this assignment, I worked in a group. I was responsible for the code as well as the architecture of the content. I have also worked a lot with CMS / wordpress in this assignment",
+        "mainImg": "img/21-5.png",
+        "time":"April 2020",
+        "role":"Coding, github, CMS and ",
+        "solution":{"text": "21-5 redesign", "link": "http://moesgaard-designs.dk/kea/09_CMS/21-5/21-5_frontend/index.html"},
+        "imgs":[{"src":"img/work_img/21_5/dis1.png", "class":"work_grid-item--width2"},{"src":"img/work_img/21_5/dis2.png", "class":"work_grid-item--width2"}, {"src":"img/work_img/21_5/dis3.png"}, {"src":"img/work_img/21_5/dis4.png"}, {"src":"img/work_img/21_5/dis5.png", "class":"work_grid-item--width2"}]
+    },
+
+    {
+        "title":"welcome to the kindergarden",
+        "subTitle":"My first game",
+        "about":"I made this project myself using code and svg. The game is about catching the evil bacteria / viruses located in the kindergarten.  Buster most not get sick. There are 3 levels. It's a very relevant game in 2020",
+        "mainImg": "img/kindergarden.png",
+        "time":"January 2017",
+        "role":"Illustrator, SVG, designing, time management, coding",
+        "solution":{"text": "welcome to the kindergarden", "link": "http://moesgaard-designs.dk/kea/04_animation/spil/"},
+        "imgs":[{"src":"img/work_img/game/game1.png", "class":"work_grid-item--width2"},{"src":"img/work_img/game/game2.png", "class":"work_grid-item--width2"}, {"src":"img/work_img/game/game3.png", "class":"work_grid-item--width2"}, {"src":"img/work_img/game/game4.png", "class":"work_grid-item--width2"}]
+    },
+
+    {
+        "title":"My first portolio",
+        "subTitle":"My first real project",
+        "about":"Dette projekt er et eksamensprojekt fra 1. semester. Det er den første hjemmeside jeg har lavet, som jeg selv er stolt af. Den indeholder alle mine projekter fra 1. semester.",
+        "mainImg": "img/first_portfolio.png",
+        "time":"December 2019",
+        "role":"designing, XD mockups, coding and more",
+        "solution":{"text": "portfolio", "link": "http://moesgaard-designs.dk/kea/06_portfolioprojekt_og_eksamen/06_portfolio/"},
+        "imgs":[{"src":"img/work_img/portfolio/port1.png", "class":"work_grid-item--width2"}, {"src":"img/work_img/portfolio/port2.png", "class":"work_grid-item--width2"}]
+    }
+]

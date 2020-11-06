@@ -1,0 +1,170 @@
+@media screen and (min-width: 760px) {
+
+    /*** General style ***/
+
+    .section_wrapper{
+        padding: 50px 100px;
+    }
+
+     /*** Navigation ***/ 
+
+    .menu_wrapper {
+        padding: 15px 100px;
+    }
+ 
+    .logo {
+        width: 25%;
+    }
+
+    .open_menu{
+        padding-top: 15px;
+    }
+
+    .menu {
+        width: 32vw;
+
+    }
+
+    .menu .rotate{
+        top: 10rem;
+    }
+
+    .menu a {
+        font-size: 1.5rem;
+        margin-right: 40px;
+    }
+
+    .menu .active::before {
+        width: 32px; 
+    }
+
+
+    /*** footer ***/
+
+    footer{
+        padding: 50px 100px;
+    }
+
+    footer .logo {
+        width: 25%;
+
+    }
+
+    /*** text ***/
+
+    h1 {
+        font-size: 6rem;   
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        
+    }
+
+    h3 {
+        font-size: 2rem;
+    
+    }
+
+    h4 {
+        font-size: 1.7rem;
+    }
+
+    p,
+    span,
+    li,
+    input,
+    textarea {
+        font-family: 'optima', sans-serif;
+        line-height: 2rem;
+        font-weight: lighter;
+        font-size: 1.2rem;
+    }
+
+
+    /* img */
+    img{
+        margin-top: 50px;
+    }
+
+
+    /* Circles */
+
+    #circle1{
+        top: 7vh;
+        left: -30vw;
+        width: 750px;
+    }
+    
+    #circle2{
+        top: 90vh;
+        left: 35vw;
+        width: 680px;
+    }
+    
+    #circle3{
+        top: 170vh;
+        left: -35vw;
+        width: 600px;
+    }
+    
+    #circle4{
+        top: 315vh;
+        left: 35vw;
+        width: 680px;
+    }
+    
+    #circle5{
+        top: 450vh;
+        left: -20vw;
+        width: 680px;
+    }
+    
+    #circle6{
+        top: -20vh;
+        left: 30vw;
+        width: 680px;
+    }
+    
+    #circle7{
+        top: -10vh;
+        left: 30vw;
+        width: 475px;
+    }
+    
+
+    /*** style ***/
+
+    /*** frontpage ***/
+    #frontpage {
+        background-size: 100% 75%;
+        background-repeat: no-repeat;
+    }
+ 
+    /*** work portfolio ***/
+    
+    .work_portfolio_grid {
+        margin-top: 50px;
+    }
+    
+    .work_grid_item {
+        width: 48.9%; 
+        margin-bottom: 10px;
+    }
+ 
+    .work_grid-item--width2 { 
+        width: 100%; 
+    }
+    
+    .grid_sizer{
+        width: 48.9%;
+    }
+    
+    /*** work info ***/
+    #main.vertical {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+
+}

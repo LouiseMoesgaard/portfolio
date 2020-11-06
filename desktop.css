@@ -1,0 +1,430 @@
+@media screen and (min-width: 992px) {
+
+/*** general Style ***/
+
+.section_wrapper{
+    padding: 50px 120px;  
+}
+
+/*** Navigation ***/ 
+
+.menu_wrapper {
+    padding: 10px 120px;
+}
+
+.logo {
+    width: 4rem;
+}
+
+
+.menu {
+    height: initial;
+    width: initial;
+    position: static;
+    background: transparent;
+    
+}
+
+.menu .rotate{
+    transform: rotate(0deg);
+    position: static;
+    text-align: right;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.menu .rotate a:last-child{
+    margin-right: 0;
+}
+
+.menu .active::before {
+    height: 2px;
+    width: 15px;
+    top: 32px;
+    left: 40%; 
+}
+
+.menu a {
+    font-size: 1rem;
+    margin-right: 45px;
+}
+
+/*** footer ***/
+
+footer{
+    padding: 25px 120px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+footer .logo {
+    width: 20%;
+
+}
+
+footer p{
+    margin-bottom: 0;
+    align-self:inherit;
+}
+
+/*** text ***/
+
+h1 {
+    font-size: 6rem;  
+}
+
+h2 {
+    font-size: 2rem;  
+}
+
+h3 {
+    font-size: 1.5rem;
+ 
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+p,
+span,
+li,
+input,
+textarea {
+    font-size: 1rem;
+}
+
+/*** img ***/ 
+
+img{
+    width: 100%;
+    margin-top: 25px;
+}
+
+/*** style ***/
+
+/** grids **/
+
+.section_grid {
+    display: grid;
+    grid-template-areas: "left right";
+    grid-column-gap: 15%;
+}
+
+.place_left {
+    grid-area: left;
+    align-self: center;
+}
+
+.place_right {
+    grid-area: right;
+    align-self: center;
+}
+
+/*** Frontpage ***/ 
+
+#frontpage {
+    margin-top: 0;
+    height: 100vh!important;
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+}
+
+#frontpage .section_wrapper{
+    height: 100%;
+}
+
+#frontpage h1 {
+    position: relative;
+    margin: 0;
+    top: 35%;
+}
+
+#frontpage h2 {
+    position: relative;
+    margin: 0;
+    top: 33%;
+}
+
+#frontpage h3 {
+    position: relative;
+    margin: 0;
+    top: 36%;
+}
+
+#frontpage p{
+    position: relative;
+    margin: 0;
+    width: 50%;
+    top: 53%;
+}
+
+#frontpage hr {
+    position: relative;
+    top: 48%;
+    width: 50%;
+    margin: 0;
+    border-bottom: 2px solid black;
+}
+
+#frontpage .button_text {
+    position: relative;
+    top: 50%;
+    left: 90%;
+    margin: 0;
+}
+
+
+/*** Welcome ***/ 
+
+#welcome {
+    min-height: calc(100vh - 43px);
+}
+
+
+
+/*** work ***/ 
+
+#work {
+    min-height: calc(100vh - 43px);
+}
+
+#work #enogtyvefem_image {
+    position: absolute;
+    top: 35%;
+    left: -20%;
+}
+
+
+/*** internship ***/ 
+
+#internship {
+    min-height: calc(100vh - 43px);
+}
+
+#internship .place_left {
+    grid-area: left;
+    align-self: end;
+
+}
+
+/*** work portfolio ***/
+
+#work_portfolio {
+    padding-top: 90px;
+    background: linear-gradient(#25313F 0%, #EDE9E8 275px);
+}
+
+#work_portfolio p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#work_portfolio .button_text{
+    left: 15%;
+    margin-top: 15px;
+}
+
+.work_portfolio_grid {
+    max-width: 100vw;
+    margin-top: 50px;
+}
+
+.work_portfolio_grid:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+.work_grid_item {
+    float: left;
+    width: 23.5%; 
+    margin-bottom: 10px;
+}
+
+.work_grid_item img {
+    margin-top: initial;
+}
+
+.work_grid-item--width2 { 
+    width: 48.5%; 
+}
+
+.grid_sizer{
+    width: 23.5%;
+}
+
+/*** work info ***/
+
+#work_info {
+    padding-top: 90px;
+    background: linear-gradient(#25313F 0%,  #EDE9E8 275px);
+}
+
+#main {
+    width: 70%;
+    margin: 25px auto;
+    display: block;
+}
+
+#main.vertical {
+    width: 40%;
+    margin: 25px auto;
+}
+
+#work_info h4{
+    width: 70%;
+    margin: 25px auto 0 auto;
+}
+
+#work_info p{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/*** contact ***/ 
+
+#contact {
+    padding-top: 90px;
+    height: calc(100vh - 170px);
+    background: linear-gradient(#25313F 0%,  #EDE9E8 275px);
+}
+
+#contact p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#contact .button_text{
+    margin-top: 70px;
+    left: 15%;
+
+}
+
+
+/** circles **/
+
+#circle1{
+    top: 10vh;
+    left: -20vw;
+    width: 800px;
+}
+
+#circle2{
+    top: 200vh;
+    left: 50vw;
+    width: 800px;
+}
+
+#circle3{
+    display: none;
+}
+
+#circle4{
+    display: none;
+}
+
+#circle5{
+    top: 395vh;
+    left: -20vw;
+    width: 800px;
+}
+
+#circle6{
+    top: -50vh;
+    left: 65vw;
+    width: 800px;
+}
+
+#circle7{
+    top: -10vh;
+    left: 30vw;
+    width: 800px;
+}
+  
+}
+
+
+@media screen and (min-width: 1900px) {
+
+    /*** general Style ***/
+
+.section_wrapper{
+    padding: 200px 300px;
+   
+}
+
+/*** Navigation ***/ 
+
+.menu_wrapper {
+    padding: 10px 300px;
+}
+
+
+
+/*** footer ***/
+
+footer{
+    padding: 25px 300px;
+}
+
+footer .logo {
+    width: 15%;
+}
+
+/*** style ***/
+
+/*** Frontpage ***/ 
+
+#frontpage p{
+    width: 30%;
+}
+
+#frontpage hr {
+    width: 30%;
+}
+
+
+}
+
+
+@media screen and (min-width: 2500px) {
+    .section_wrapper{
+        padding: 300px 500px; 
+    }
+
+    .menu_wrapper {
+        padding: 10px 500px;
+    }
+
+    
+    
+    /*** footer ***/
+    
+    footer{
+        padding: 25px 500px;
+    }
+    
+    footer .logo {
+        width: 15%;
+    }
+    #circle1 {
+        top: 10vh;
+        left: -14vw;
+        width: 908px;
+    }
+
+    #circle2{
+        top: 227vh;
+        left: 72vw;
+    }
+
+    #circle5 {
+        top: 389vh;
+        left: -11vw;
+    }
+
+}
