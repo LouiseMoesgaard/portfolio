@@ -150,7 +150,7 @@ function generateWork(index) {
 }
 
 function generateMasonry(){
-    let query = window.matchMedia("(max-width: 760px)");
+    let query = window.matchMedia("(max-width: 768px)");
     let gutter = 15;
     if(query.matches) {
         gutter = 7;
