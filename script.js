@@ -8,6 +8,11 @@ document.addEventListener("readystatechange", ()=>{
         let query = window.matchMedia("(max-width: 992px)");
         if(query.matches){
             menuOpen();
+            console.log(document.querySelector("#frontpage .button_text"));
+            let frontpageBtn = document.querySelector("#frontpage .button_text");
+            if(frontpageBtn) {
+                frontpageBtn.classList.add("hide")
+            }
         } else {
             document.querySelector(".burger_open").classList.add("hide");
             document.querySelector(".menu").classList.remove("hide");

@@ -61,7 +61,7 @@ html {
 }
 
 .hide {
-    display: none;
+    display: none!important;
 }
 
 section {
@@ -224,7 +224,7 @@ footer p{
 
 h1 {
     font-family: 'Nesans';
-    font-size: 3.5rem;
+    font-size: 4rem;
     text-transform: uppercase;
     text-align: center;
     color: #2c2c2c;
@@ -233,18 +233,20 @@ h1 {
 
 h2 {
     font-family: 'Optima';
-    font-size: 2rem;
+    font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
     margin-top: 55px;
     color: #2c2c2c;
+    font-weight: normal;
 }
 
 h3 {
     font-family: 'Optima';
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     color: #2c2c2c;
+    font-weight: normal;
 }
 
 h4 {
